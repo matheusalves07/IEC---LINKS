@@ -10,9 +10,13 @@
 */
 body{
   background-color: #f2f2f2;
+  background-image: url(https://payload.cargocollective.com/1/21/692429/13320322/OpenSwim3_1750.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 div#first{
-  background:linear-gradient(#09048C,#423FA6);
+  /*background:linear-gradient(#09048C,#423FA6);*/
   width: 100%;
   height: 100%;
   text-align: center;
@@ -23,7 +27,7 @@ div#first{
   box-shadow: 3px 1px 12px #09048c22;
 }
 div#second{
-  background:linear-gradient(#423FA6,#09048C);
+  /*background:linear-gradient(#423FA6,#09048C);*/
   width: 100%;
   height: 100%;
   border-radius: 0px 0px 10px 10px;
@@ -34,6 +38,10 @@ h1{
   font-size: 27px;
   color:white ;
   font-style: italic;
+  text-align: center;
+  background-color: #09048C;
+  border-radius: 10px;
+
 
 }
 div#logo{
@@ -143,6 +151,52 @@ p > a:hover{
     color: #09048C;
     
   }
+  button{
+    width: 150px; 
+    height: 55px; 
+    background: #FFF; 
+    color: #423FA6;
+    text-transform: uppercase;
+    border: 2px solid #423FA6;
+    cursor: pointer;
+    font-size: 16px; 
+    letter-spacing: 3px;
+    margin-right: 7px; 
+    margin-left: 7px; 
+    font-weight: bold;
+    margin-bottom: 30px; 
+  }
+  
+  
+  button:hover{
+    color: #FFF;
+    background: #423FA6; 
+  }
+  
+  
+  .conteudo{
+    padding-top: 50px;	
+    padding-bottom: 30px;  
+  }
+  
+  
+  .cronometro{
+    background-color: #ffffffbe;
+    padding: 10px;
+    margin-top: 50px; 
+    color: #262626;  
+    font-size: 30px;  
+    margin-bottom: 40px;  
+    letter-spacing: 2px; 
+  }
+  
+  
+  ::selection{
+    color: #FFF; 
+    background: #B0E7C6; 
+  }
+
+
   /* responsive styles */
   @media only screen and (max-width: 600px) {
     #logo {
@@ -178,4 +232,6 @@ p > a:hover{
     table {
       font-size: 18px;
     }
+    .conteudo{padding-top: 40px; margin-left: 40px; margin-right: 40px;}
+  
   }

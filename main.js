@@ -110,7 +110,7 @@ window.onload = function() {
       // se os milissegundos forem superiores a 99 	
       if (milissegundos > 99) {
 
-          // aparece no ecrã os segundos 
+          
             console.log("segundos");
             
             segundos++;		      	
@@ -124,11 +124,11 @@ window.onload = function() {
         anexarSegundos.innerHTML = segundos;
       }
 
-      // começar contagem dos minutos	
-      // se os segundos forem superiores a 59
+      	
+      // se os
       if (segundos > 59){
           
-          // aparece no ecrã os minutos
+        
           console.log("minutos"); 
           minutos++; 
           anexarMinutos.innerHTML = "0" + minutos; 

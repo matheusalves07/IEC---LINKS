@@ -47,15 +47,24 @@ h1{
 div#logo{
     margin-bottom: 120px;
 }
+div#proximo-tempo{
+  font-size: 40px;
+  text-align: center;
+}
 p{
     text-align: center;
-    color: #09048C;
+    color: #ffffff;
     background-color: #09048C;
     display: inline-block;
     padding: 8px;
     border-radius: 8px;
     margin-left: 20%;
     margin-top:30px ;
+}
+
+p.tempo{
+  color: #f2f2f2;
+  background-color: #09048C;
 }
 p:hover{
     text-align: center;
@@ -79,6 +88,9 @@ p > a:hover{
     font-weight: 600;
     font-size: 18px;
     
+}
+button.ini{
+  margin-top: 30px;
 }
 #logo {
     width: 300px;
@@ -177,6 +189,10 @@ p > a:hover{
   .conteudo{
     padding-top: 50px;	
     padding-bottom: 30px;  
+  }
+
+  div.tiro{
+    background-color: #f2f2f2;
   }
   
   

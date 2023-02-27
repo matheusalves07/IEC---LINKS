@@ -44,6 +44,15 @@ h1{
 
 
 }
+h1.tiro-h1{
+  font-size: 27px;
+  color:#09048C ;
+  font-style: italic;
+  text-align: center;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  padding-top: 10px;
+}
 div#logo{
     margin-bottom: 120px;
 }
@@ -193,6 +202,7 @@ button.ini{
 
   div.tiro{
     background-color: #f2f2f2;
+    border-radius: 10px;
   }
   
   

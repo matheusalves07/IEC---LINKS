@@ -22,6 +22,7 @@ var tempoInicial = 0;
       cronometro = setInterval(iniciarCronometro, tempoEntreSaidas * 1000);
       atualizarProximoTempo();
     }
+    
 
     function reiniciarCronometro() {
       clearInterval(cronometro);
